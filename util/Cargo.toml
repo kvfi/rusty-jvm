@@ -1,0 +1,9 @@
+[package]
+name = "rustyjvm_util"
+version = "0.1.0"
+authors = ["Khalid Ouafi <mail@ouafi.net>"]
+edition = "2021"
+
+[dependencies]
+zip = "0.5.3"
+

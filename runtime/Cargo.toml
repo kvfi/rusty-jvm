@@ -1,0 +1,12 @@
+[package]
+name = "rustyjvm_runtime"
+version = "0.1.0"
+authors = ["Khalid Ouafi <mail@ouafi.net>"]
+edition = "2021"
+
+[dependencies]
+byteorder = "1.2.7"
+lazy_static = "1.2.0"
+regex = "1"
+rustyjvm_util = {path = "../util"}
+parking_lot = "0.9"

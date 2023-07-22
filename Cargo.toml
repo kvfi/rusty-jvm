@@ -1,0 +1,17 @@
+[package]
+name = "rustyjvm"
+version = "0.1.0"
+authors = ["Khalid Ouafi <mail@ouafi.net>"]
+edition = "2021"
+
+[dependencies]
+assert_float_eq = "1"
+byteorder = "1.2.7"
+lazy_static = "1.2.0"
+structopt = { version = "0.3" }
+zip = "0.6.6"
+rustyjvm_runtime = {path = "runtime"}
+rustyjvm_util = {path = "util"}
+
+[profile.release]
+lto = true
